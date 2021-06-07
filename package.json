@@ -1,0 +1,14 @@
+{
+  "name": "aid-ci-ga",
+  "version": "1.0.0",
+  "description": "The Continuous Testing Service of AID models as a GitHub Action",
+  "main": "index.js",
+  "repository": "git@github.com:autoai-org/aid-testing-actions.git",
+  "author": "Xiaozhe Yao <askxzyao@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.3.0",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^5.0.0"
+  }
+}

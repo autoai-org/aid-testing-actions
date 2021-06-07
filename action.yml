@@ -1,0 +1,15 @@
+name: 'Test AID Model'
+description: 'Testing a AID model'
+author: 'Xiaozhe Yao'
+inputs:
+  reporting:
+    description: 'If you want to report the results into our discovery service?'
+    required: true
+    default: false
+  edge:
+    description: 'If you want to test with the edge version of aid?'
+    required: true
+    default: false
+runs:
+  using: 'node12'
+  main: 'index.js'
