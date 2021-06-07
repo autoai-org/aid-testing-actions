@@ -7,10 +7,10 @@ async function main() {
     console.log(isEdge)
     if (eval(isEdge)) {
         console.info('Downloading Latest AID (Edge version)')
-        await exec.exec('curl https://releases.autoai.org/aid/install.sh | sudo bash -s -- edge')
+        await exec.exec('curl -s https://releases.autoai.org/aid/install.sh | sudo bash -s -- edge')
     } else {
         console.info('Downloading Latest AID (Stable version)')
-        await exec.exec('curl https://releases.autoai.org/aid/install.sh | sudo bash -s')
+        await exec.exec('curl -s https://releases.autoai.org/aid/install.sh | sudo bash -s')
     }
     
     await exec.exec('ls')
