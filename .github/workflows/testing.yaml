@@ -6,4 +6,4 @@ jobs:
     name: Test the Testing Suite
     steps:
       - name: AID Model Testing
-        run: node index.js
+        uses: ./
