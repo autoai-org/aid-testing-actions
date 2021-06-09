@@ -9,7 +9,7 @@ inputs:
   edge:
     description: 'If you want to test with the edge version of aid?'
     required: true
-    default: false
+    default: true
 runs:
   using: 'node12'
   main: 'index.js'
