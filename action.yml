@@ -1,6 +1,7 @@
 name: 'Test AID Model'
 description: 'Testing a AID model'
 author: 'Xiaozhe Yao'
+icon: 'check-circle'
 inputs:
   reporting:
     description: 'If you want to report the results into our discovery service?'
