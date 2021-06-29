@@ -15,6 +15,7 @@ async function main() {
         await exec.exec('sudo bash ./install.sh')
     }
     await exec.exec('aid --version')
+    await exec.exec('aid build --path=./')
 }   
 try {
     main()
